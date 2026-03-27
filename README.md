@@ -11,10 +11,19 @@ Firstly, you will need to set up the script in order to use it in Aseprite. To d
 
 2. 	In the navbar menu at the top navigate to File > Scripts > Open Scripts Folder. 
 
+<img width="498" height="430" alt="image" src="https://github.com/user-attachments/assets/b8cdd597-19ed-41ce-8598-b4319ea057e5" />
+
+
 3. 	Take the _modules folder and the JsonExporter.lua file and move them 
     into the Aseprite scripts folder which you have opened previously.
 
+<img width="799" height="242" alt="image" src="https://github.com/user-attachments/assets/87167273-6fba-4a83-8d0c-5cdf1d6dd26a" />
+
+
 4. 	In Aseprite, rescan the scripts by pressing File > Scripts > Rescan Scripts Folder.
+
+<img width="493" height="413" alt="image" src="https://github.com/user-attachments/assets/ddbd0da0-1617-4611-891d-cb7a7aded3c7" />
+
 
 Awesome! So you have set up the script, but how do we use it?
 Well luckily, using the script is pretty simple.
@@ -25,5 +34,8 @@ Each Tag will represent one Animation present in the Spritesheet you export. Aft
 If you don't know how to make a Tag on Aseprite, highlight the frames you want in the animation timeline, right click, and select "New Tag".
 
 To use the script, go to File > Scripts > JsonExporter. Then it's as simple as choosing the export location and whether or not to merge duplicate frames.
+
+<img width="500" height="412" alt="image" src="https://github.com/user-attachments/assets/010dac99-ca54-4bb6-8b58-2fefd039a739" />
+
 
 If you choose to merge duplicate frames, make sure to export the sprite sheet with duplicate frames merged as well.
